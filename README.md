@@ -1,13 +1,21 @@
-Oferecemos soluções completas de desenvolvimento digital para alavancar negócios diretamente no seu dispositivo móvel ou web:
+🎯 Impulsione seu negócio com soluções digitais
 
-Desenvolvimento Android: aplicações nativas em Kotlin com foco em performance, estabilidade e excelente experiência de usuário. Ideal para smartphones e tablets, incluindo integrações com Firebase, SQLite e APIs externas.
+Oferecemos serviços sob medida para elevar sua marca e engajar seu público, seja no seu smartphone Android ou em qualquer navegador web:
 
-Sites Responsivos: criação de websites modernos em HTML5, CSS3 e JavaScript, otimizados para SEO e adaptados a qualquer tela, desde navegadores desktop até o seu tablet ou smartphone.
+🚀 Apps Android Nativos: performance incomparável em Kotlin, integração com Firebase, SQLite e APIs externas para uma experiência de uso fluida e confiável.
 
-Integrações e Automação: configuramos notificações push (Firebase Cloud Messaging), WhatsApp API e integração com Google Maps, além de automação de processos via Firebase Functions.
+🌐 Sites Modernos e Responsivos: design atraente em HTML5, CSS3 e JavaScript, SEO otimizado e layout adaptável a todos os dispositivos.
 
-Funcionalidade Offline: projetos que funcionam mesmo sem conexão, sincronizando dados automaticamente quando o dispositivo voltar a ficar online.
+🔗 Integrações & Automação: configure notificações push (FCM), WhatsApp API, Google Maps e automatize processos com Firebase Functions.
 
-Manutenção & Suporte: suporte contínuo, correção de bugs e implementação de novas funcionalidades, garantindo que seus aplicativos e sites estejam sempre atualizados e estáveis.
+📡 Offline First: funcionalidades que funcionam sem internet e sincronizam dados automaticamente ao voltar online.
 
-Nossos serviços atendem desde pequenos empreendedores até médias empresas em todo o Brasil, garantindo entrega pontual, qualidade de código e satisfação do cliente.
+🛠 Manutenção & Suporte Premium: atualizações regulares, correção de bugs e novas funcionalidades para manter sua aplicação sempre estável.
+
+Atendemos desde empreendedores individuais até médias empresas em todo o Brasil, entregando:
+
+📆 Prazos cumpridos
+
+✅ Qualidade de código
+
+🤝 Satisfação garantida
