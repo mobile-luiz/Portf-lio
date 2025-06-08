@@ -156,17 +156,35 @@
     </div>
   </section>
 
-  <section id="contato">
-    <div class="container">
-      <h2>Fale Conosco</h2>
-      <form class="contact-form" action="https://wa.me/5581999503849?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento!" method="get" target="_blank">
-        <input type="text" name="nome" placeholder="Seu Nome" required>
-        <input type="email" name="email" placeholder="Seu E-mail" required>
-        <textarea name="mensagem" rows="5" placeholder="Como podemos ajudar?" required></textarea>
-        <button class="btn-primary" type="submit">Enviar pelo WhatsApp</button>
-      </form>
-    </div>
-  </section>
+<section id="contato">
+  <div class="container">
+    <h2>Fale Conosco</h2>
+    <form id="whatsapp-form" class="contact-form">
+      <input type="text" id="nome" placeholder="Seu Nome" required>
+      <input type="email" id="email" placeholder="Seu E-mail" required>
+      <textarea id="mensagem" rows="5" placeholder="Como podemos ajudar?" required></textarea>
+      <button class="btn-primary" type="submit">Enviar pelo WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<script>
+  document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const nome     = encodeURIComponent(document.getElementById('nome').value);
+    const email    = encodeURIComponent(document.getElementById('email').value);
+    const mensagem = encodeURIComponent(document.getElementById('mensagem').value);
+
+    // Monta o corpo da mensagem (cada %0A é uma quebra de linha)
+    const text = `Olá,%0ANome: ${nome}%0AEmail: ${email}%0AMensagem: ${mensagem}`;
+
+    // Seu número (sem espaços nem símbolos, só dígitos internacionais)
+    const numero = '5581995038049';
+
+    // Abre o link do WhatsApp com a mensagem pronta
+    window.open(`https://wa.me/${numero}?text=${text}`, '_blank');
+  });
+</script>
 
   <footer>
     <div class="container">
